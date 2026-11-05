@@ -10,7 +10,17 @@ const P = [
   { id: 7, ref: "MO-2031", n: "Correa de distribución", t: "Motor", marca: "Kia", mod: "Rio", y: "2012–2017", s: 5, p: 52, f: "Sincroniza el giro del cigüeñal y el árbol de levas para abrir y cerrar las válvulas a tiempo." },
   { id: 8, ref: "RE-6002", n: "Radiador", t: "Refrigeración", marca: "Chevrolet", mod: "Aveo", y: "2010–2016", s: 3, p: 130, f: "Disipa el calor del líquido refrigerante para evitar que el motor se sobrecaliente." },
   { id: 9, ref: "EL-3022", n: "Alternador 90A", t: "Eléctrico", marca: "Suzuki", mod: "Swift", y: "2011–2017", s: 6, p: 175, f: "Genera electricidad con el motor encendido para cargar la batería y alimentar el vehículo." },
-  { id: 10, ref: "FR-1015", n: "Discos de freno ventilados (par)", t: "Frenos", marca: "Mazda", mod: "Mazda 3", y: "2014–2018", s: 12, p: 88, f: "Superficie metálica contra la que actúan las pastillas; sus canales internos disipan el calor." }
+  { id: 10, ref: "FR-1015", n: "Discos de freno ventilados (par)", t: "Frenos", marca: "Mazda", mod: "Mazda 3", y: "2014–2018", s: 12, p: 88, f: "Superficie metálica contra la que actúan las pastillas; sus canales internos disipan el calor." },
+  { id: 11, ref: "MO-2044", n: "Filtro de combustible", t: "Motor", marca: "Toyota", mod: "Yaris", y: "2012–2018", s: 14, p: 28, f: "Retiene suciedad y partículas del combustible antes de que lleguen al motor." },
+  { id: 12, ref: "RE-6018", n: "Bomba de agua", t: "Refrigeración", marca: "Honda", mod: "CR-V", y: "2012–2016", s: 7, p: 78, f: "Hace circular el refrigerante por el motor y el radiador para regular la temperatura." },
+  { id: 13, ref: "TR-7004", n: "Kit de embrague", t: "Transmisión", marca: "Nissan", mod: "Versa", y: "2012–2018", s: 4, p: 165, f: "Conecta y desconecta el motor de la transmisión para permitir cambios de marcha suaves." },
+  { id: 14, ref: "SU-4026", n: "Terminal de dirección", t: "Suspensión", marca: "Hyundai", mod: "Accent", y: "2012–2017", s: 18, p: 32, f: "Transmite el movimiento de la dirección a las ruedas y ayuda a mantener la alineación." },
+  { id: 15, ref: "EL-3038", n: "Bombillo halógeno H4", t: "Eléctrico", marca: "Universal", mod: "Vehículos con faro H4", y: "2008–2024", s: 26, p: 12, f: "Proporciona luz alta y baja para mejorar la visibilidad al conducir de noche." },
+  { id: 16, ref: "MO-2059", n: "Sensor de oxígeno", t: "Motor", marca: "Chevrolet", mod: "Spark", y: "2011–2017", s: 5, p: 68, f: "Mide el oxígeno en los gases de escape para ayudar a ajustar la mezcla de combustible." },
+  { id: 17, ref: "FR-1028", n: "Zapatas de freno traseras", t: "Frenos", marca: "Kia", mod: "Picanto", y: "2012–2017", s: 11, p: 36, f: "Presionan el tambor de freno para reducir la velocidad y detener las ruedas traseras." },
+  { id: 18, ref: "CA-8003", n: "Filtro de aire de cabina", t: "Cabina", marca: "Mazda", mod: "Mazda 3", y: "2014–2018", s: 20, p: 22, f: "Filtra polvo y partículas del aire que circula por el sistema de ventilación del vehículo." },
+  { id: 19, ref: "RE-6031", n: "Termostato", t: "Refrigeración", marca: "Suzuki", mod: "Swift", y: "2011–2017", s: 0, p: 24, f: "Regula el paso del refrigerante para que el motor alcance y mantenga su temperatura de trabajo." },
+  { id: 20, ref: "EN-5017", n: "Bobina de encendido", t: "Encendido", marca: "Toyota", mod: "Corolla", y: "2014–2019", s: 8, p: 48, f: "Eleva el voltaje de la batería para generar la chispa necesaria en las bujías." }
 ];
 const $ = s => document.querySelector(s), app = $("#app"), qi = $("#q");
 let cat = "Todos";
